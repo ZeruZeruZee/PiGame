@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Memorize the 3.14...</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<!--p id="index">0</p-->
+	<div class="gauge-container">
+		<div class="gauge-bar" id="healthBar" style="width: 100%;"></div>
+	</div>
+	<p id="dynamicText"></p>
+	<div id="keypad-container">
+		<!-- テンキー風のキーパッドを表示する要素を追加 -->
+		<div class="key">7</div>
+		<div class="key">8</div>
+		<div class="key">9</div>
+		<div class="key">4</div>
+		<div class="key">5</div>
+		<div class="key">6</div>
+		<div class="key">1</div>
+		<div class="key">2</div>
+		<div class="key">3</div>
+		<div class="key">0</div>
+	</div>
+	<script src="https://unpkg.com/tone@14.7.77/build/Tone.js"></script>
+	<script type="module" src="script.js"></script>
+</body>
+
+</html>
